@@ -10,8 +10,11 @@ Source0:	http://dl.sourceforge.net/nusoap/%{name}-%{version}.zip
 URL:		http://sourceforge.net/projects/nusoap/
 Requires:	php-common
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
+BuildRequires:	php-pear-Mail_Mime
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+
+%define         _noautoreq	'pear(class.*)'
 
 %description
 NuSOAP is a rewrite of SOAPx4, provided by NuSphere and Dietrich
