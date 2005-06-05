@@ -11,6 +11,7 @@ Source0:	http://dl.sourceforge.net/nusoap/%{name}-%{version}.zip
 URL:		http://sourceforge.net/projects/nusoap/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 BuildRequires:	php-pear-Mail_Mime
+BuildRequires:	unzip
 Requires:	php-common
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
