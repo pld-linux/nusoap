@@ -2,7 +2,7 @@
 Summary:	Web services based on SOAP 1.1, WSDL 1.1 and HTTP 1.0/1.1 for PHP
 Summary(pl):	Us³ugi WWW oparte na SOAP 1.1, WSDL 1.1 i HTTP 1.0/1.1 dla PHP
 Name:		nusoap
-Version:	0.6.9
+Version:	0.7.0
 Release:	1
 License:	GPL
 Group:		Development/Languages/PHP
