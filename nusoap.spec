@@ -3,11 +3,13 @@ Summary:	Web services based on SOAP 1.1, WSDL 1.1 and HTTP 1.0/1.1 for PHP
 Summary(pl):	Us³ugi WWW oparte na SOAP 1.1, WSDL 1.1 i HTTP 1.0/1.1 dla PHP
 Name:		nusoap
 Version:	0.7.2
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/PHP
 Source0:	http://dl.sourceforge.net/nusoap/%{name}-%{version}.zip
 # Source0-md5:	2b01503796b351e0c1a794f3ab9bea28
+Source1:	http://dl.sourceforge.net/nusoap/%{name}-docs-%{version}.zip
+# Source1-md5:	d76ddc62a8aac839b1f2763f7e4f5f00
 URL:		http://sourceforge.net/projects/nusoap/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 BuildRequires:	php-pear-Mail_Mime
@@ -31,7 +33,7 @@ PHP - umo¿liwiaj±cych programistom tworzenie i wykorzystywanie us³ug
 WWW w oparciu o SOAP 1.1, WSDL 1.1 i HTTP 1.0/1.1.
 
 %prep
-%setup -q -c
+%setup -q -c -a1
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -44,5 +46,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc lib/changelog samples
+%doc lib/changelog samples docs/*
 %{_datadir}/php/%{name}
