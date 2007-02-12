@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	Web services based on SOAP 1.1, WSDL 1.1 and HTTP 1.0/1.1 for PHP
-Summary(pl):	Us³ugi WWW oparte na SOAP 1.1, WSDL 1.1 i HTTP 1.0/1.1 dla PHP
+Summary(pl.UTF-8):   UsÅ‚ugi WWW oparte na SOAP 1.1, WSDL 1.1 i HTTP 1.0/1.1 dla PHP
 Name:		nusoap
 Version:	0.7.2
 Release:	2
@@ -26,10 +26,10 @@ Ayala. It is a set of PHP classes - no PHP extensions required - that
 allow developers to create and consume web services based on SOAP 1.1,
 WSDL 1.1 and HTTP 1.0/1.1.
 
-%description -l pl
-NuSOAP to przepisane od nowa SOAPx4 udostêpnione przez NuSphere i
-Dietricha Ayalê. Jest to zbiór klas PHP - nie wymagaj±cych rozszerzeñ
-PHP - umo¿liwiaj±cych programistom tworzenie i wykorzystywanie us³ug
+%description -l pl.UTF-8
+NuSOAP to przepisane od nowa SOAPx4 udostÄ™pnione przez NuSphere i
+Dietricha AyalÄ™. Jest to zbiÃ³r klas PHP - nie wymagajÄ…cych rozszerzeÅ„
+PHP - umoÅ¼liwiajÄ…cych programistom tworzenie i wykorzystywanie usÅ‚ug
 WWW w oparciu o SOAP 1.1, WSDL 1.1 i HTTP 1.0/1.1.
 
 %prep
