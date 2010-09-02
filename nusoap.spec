@@ -37,6 +37,7 @@ WWW w oparciu o SOAP 1.1, WSDL 1.1 i HTTP 1.0/1.1.
 
 %install
 rm -rf $RPM_BUILD_ROOT
+find -name CVS -print0 | xargs -0 rm -rf
 install -d $RPM_BUILD_ROOT%{_datadir}/php/%{name}
 
 install lib/*.php $RPM_BUILD_ROOT%{_datadir}/php/%{name}
