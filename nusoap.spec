@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 Summary:	Web services based on SOAP 1.1, WSDL 1.1 and HTTP 1.0/1.1 for PHP
 Summary(pl.UTF-8):	Usługi WWW oparte na SOAP 1.1, WSDL 1.1 i HTTP 1.0/1.1 dla PHP
 Name:		nusoap
